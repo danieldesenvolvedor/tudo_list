@@ -1,0 +1,92 @@
+body{
+    background-color: black ;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.content--add--item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap:wrap;
+}
+
+#btn-new-task,
+#input-new-task{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+   
+}
+
+#input-new-task{
+    width: 20rem;
+    border-radius: 1rem;
+}
+/*stylizando botão*/
+#btn-new-task{
+    background-color:#056b05;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: 400ms;
+}
+/*animando*/
+#btn-new-task:hover{
+    background-color:#1b9e1b;
+    
+}
+
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding: 0;
+}
+
+
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#to-do-list li:hover{
+    background-color: rgb(24, 24, 24) ;
+    transition: .4s;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+#btn-ok {
+    border: none;
+    color: #fff;
+    background-color: #1b9e1b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: .4rem .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-ok:hover {
+    background-color: #48cc48;
+}
