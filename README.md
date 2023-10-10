@@ -1,5 +1,7 @@
 # Aplicação Web de Lista de Tarefas
 
+![Texto alternativo](/img/to-do-list2.PNG)
+
 Esta é uma aplicação web simples de lista de tarefas construída usando HTML, CSS e JavaScript.
 
 ## Recursos
@@ -23,4 +25,5 @@ Você pode assistir a uma demonstração da aplicação no [YouTube](https://www
 
 ## Contribuidores
 
-- [Gustavo Neitzke](https://github.com/seunomedeusuario) - Criador
+- Gustavo Neitzke(https://github.com/yourusername) - Criador
+
